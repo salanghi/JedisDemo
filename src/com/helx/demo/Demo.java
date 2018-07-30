@@ -11,6 +11,7 @@ public class Demo {
 		Thread.sleep(2000);
 		System.out.println(jedis2.get("key"));
 		
+		System.out.println("");
 //		System.out.println(jedis.ping());
 		
 //		Set<String> keys = jedis.keys("*");
